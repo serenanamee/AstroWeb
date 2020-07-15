@@ -375,3 +375,11 @@ h2 {
   display: block;
   padding: 10px;
 }
+body {
+  --swiper-theme-color: #e66ea0;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}

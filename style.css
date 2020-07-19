@@ -133,8 +133,9 @@ h2 {
   padding-bottom: 40px;
 }
 .wrap {
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 .header {
   display: flex;
@@ -185,45 +186,25 @@ h2 {
   background-color: #f7f7f7;
 }
 
-.feature-section ul {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 40px;
-}
-.feature-section li {
-  width: 248px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 .feature-section h3 {
   font-size: 24px;
   color: #555;
   padding-top: 10px;
   line-height: 30px;
   padding-bottom: 10px;
+  text-align: center;
 }
 .feature-section p {
   line-height: 25px;
   color: #333;
+  text-align: center;
 }
 
 .recent-lecture {
   padding-bottom: 90px;
 }
-.recent-lecture ul {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 50px;
-}
-.recent-lecture li {
-  width: 338px;
-  border: 1px solid #ddd;
-}
-.recent-lecture img {
+
+.card img {
   width: 100%;
 }
 
@@ -323,8 +304,7 @@ h2 {
   padding-top: 20px;
 }
 .info {
-  display: flex;
-  padding: 50px;
+  padding: 20px 0 20px 20px;
 }
 .info li a {
   text-decoration: none;
@@ -337,15 +317,7 @@ h2 {
 .info li a:hover {
   color: #d90845;
 }
-.info-detail {
-  display: flex;
-}
-.info-detail ul {
-  margin-left: 50px;
-}
-.contact {
-  margin-right: 90px;
-}
+
 .contact i {
   padding-right: 8px;
 }
@@ -382,4 +354,182 @@ body {
 .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+[class^="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+.col-2 {
+  width: 16.6666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333%;
+}
+.col-5 {
+  width: 41.666%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.3333%;
+}
+.col-8 {
+  width: 66.6666%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.3333%;
+}
+.col-11 {
+  width: 91.6666%;
+}
+.col-12 {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .col-sm-1 {
+    width: 8.3333%;
+  }
+  .col-sm-2 {
+    width: 16.6666%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33333%;
+  }
+  .col-sm-5 {
+    width: 41.666%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333%;
+  }
+  .col-sm-8 {
+    width: 66.6666%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.3333%;
+  }
+  .col-sm-11 {
+    width: 91.6666%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .col-lg-1 {
+    width: 8.3333%;
+  }
+  .col-lg-2 {
+    width: 16.6666%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+  .col-lg-5 {
+    width: 41.666%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333%;
+  }
+  .col-lg-8 {
+    width: 66.6666%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333%;
+  }
+  .col-lg-11 {
+    width: 91.6666%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.3333%;
+  }
+  .col-xl-2 {
+    width: 16.6666%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.33333%;
+  }
+  .col-xl-5 {
+    width: 41.666%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.3333%;
+  }
+  .col-xl-8 {
+    width: 66.6666%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.3333%;
+  }
+  .col-xl-11 {
+    width: 91.6666%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: -15px;
+  padding-left: -15px;
 }

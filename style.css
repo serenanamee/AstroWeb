@@ -141,212 +141,24 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
 }
-.header img {
+.logo img {
   height: 24px;
   width: 98px;
-  vertical-align: middle;
+  vertical-align: center;
 }
-.header span {
+.logo span {
   color: #d90845;
-  margin-left: 8px;
-  margin-top: 3px;
+  padding-right: 180px;
+  padding-left: 10px;
 }
-.header-nav ul {
-  display: flex;
-}
-.header-nav img {
-  width: 24px;
-}
-.header li a {
+.navbar-nav .nav-item .nav-link a {
   text-decoration: none;
-  display: block;
-  line-height: 1.25rem;
-  color: #777;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 25px;
 }
-.header li a:hover {
-  color: #d90845;
-}
-.header span {
-  color: #777;
-}
-.swiper-container {
-  width: 1200px;
-  height: 404px;
-}
-
-.feature-section,
-.refer,
-.info,
-.footer {
-  background-color: #f7f7f7;
-}
-
-.feature-section h3 {
-  font-size: 24px;
-  color: #555;
-  padding-top: 10px;
-  line-height: 30px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-.feature-section p {
-  line-height: 25px;
-  color: #333;
-  text-align: center;
-}
-
-.recent-lecture {
-  padding-bottom: 90px;
-}
-
-.card img {
-  width: 100%;
-}
-
-.lecture-button {
-  position: relative;
-}
-.lecture-button a {
-  border: 1px solid #d90845;
-  background-color: #d90845;
-  border-radius: 3px;
-  color: #fff;
-  padding: 15px 50px;
-  font-size: 18px;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-}
-.button {
-  position: absolute;
-  left: 40%;
-}
-
-.card-text {
-  padding: 20px;
-}
-.card-text h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #666;
-  line-height: 25px;
-  padding-bottom: 25px;
-  padding-top: 10px;
-}
-.card span {
-  border: 1px solid #d90845;
-  background-color: #d90845;
-  border-radius: 3px;
-  color: #fff;
-  padding: 3px;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-.card-text p {
-  font-size: 14px;
-  color: #666;
-  padding-bottom: 15px;
-}
-.card .time {
-  border: 1px solid #ddd;
-  background-color: #ddd;
-  border-radius: 3px;
-  color: #666;
-  padding: 5px;
-  display: inline-block;
-  margin-left: 10px;
-  font-weight: 800;
-}
-.referrer {
-  width: 800px;
-  display: flex;
-  margin: 30px auto;
-}
-.referrer img {
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  padding-right: 20px;
-}
-.text p {
-  font-size: 16px;
-  color: #555;
-  line-height: 24px;
-  padding-bottom: 15px;
-}
-.text h5 {
-  color: #d90845;
-  font-size: 20px;
-  padding-bottom: 10px;
-  font-weight: bold;
-}
-.text span {
-  color: #888;
-  font-size: 18px;
-}
-.know-about-us {
-  text-align: center;
-  font-size: 18px;
-  line-height: 50px;
-  padding-bottom: 80px;
-}
-.know-about-us a {
-  text-decoration: none;
-  color: #d90845;
-}
-.know-about-us img {
-  padding-right: 30px;
-  padding-top: 20px;
-}
-.info {
-  padding: 20px 0 20px 20px;
-}
-.info li a {
-  text-decoration: none;
-  display: inline-block;
-  color: #666;
-  line-height: 20px;
-  padding-top: 15px;
-}
-
-.info li a:hover {
+.navbar-nav .nav-item .nav-link a:hover {
   color: #d90845;
 }
 
-.contact i {
-  padding-right: 8px;
-}
-.info-detail i {
-  padding-right: 8px;
-}
-.info b {
-  font-weight: bolder;
-}
-.footer {
-  text-align: center;
-  color: #666;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-.scrollup {
-  position: fixed;
-  background: #fff;
-  border: 1px solid #dededea8;
-  color: #d90845;
-  border-radius: 50%;
-  bottom: 1.5rem;
-  right: 1.25rem;
-  text-align: center;
-}
-.scrollup a {
-  display: block;
-  padding: 10px;
-}
 body {
   --swiper-theme-color: #e66ea0;
 }
@@ -355,7 +167,6 @@ body {
   width: 15px;
   height: 15px;
 }
-
 .container {
   display: flex;
   width: 100%;
@@ -532,4 +343,174 @@ body {
   flex-wrap: wrap;
   padding-right: -15px;
   padding-left: -15px;
+}
+
+.sub-content img {
+  width: 100%;
+}
+.feature-section,
+.refer,
+.info,
+.footer {
+  background-color: #f7f7f7;
+}
+
+.feature-section h3 {
+  font-size: 24px;
+  color: #555;
+  padding-top: 10px;
+  line-height: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.feature-section p {
+  line-height: 25px;
+  color: #333;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+.card-text {
+  padding: 20px;
+}
+.card-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #666;
+  line-height: 25px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.card span {
+  border: 1px solid #d90845;
+  background-color: #d90845;
+  border-radius: 3px;
+  color: #fff;
+  padding: 3px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.card-text p {
+  font-size: 14px;
+  color: #666;
+}
+.card .time {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  border-radius: 3px;
+  color: #666;
+  padding: 5px;
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.card-sec {
+  padding-bottom: 26px;
+}
+.lecture-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.lecture-button a {
+  border: 1px solid #d90845;
+  background-color: #d90845;
+  border-radius: 3px;
+  color: #fff;
+  padding: 15px 50px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+.lecture-button a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.referrer img {
+  border-radius: 50%;
+  padding-right: 40px;
+}
+.text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+.text h5 {
+  color: #d90845;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.text span {
+  color: #888;
+  font-size: 18px;
+}
+.swipe-container {
+  width: 960px;
+}
+.know-about-us {
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  padding-bottom: 80px;
+}
+.know-about-us a {
+  text-decoration: none;
+  color: #d90845;
+}
+.know-about-us img {
+  padding-right: 30px;
+  padding-top: 20px;
+}
+.info {
+  padding: 20px 0 20px 20px;
+}
+.info li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #666;
+  line-height: 20px;
+  padding-top: 15px;
+}
+
+.info li a:hover {
+  color: #d90845;
+}
+
+.contact i {
+  padding-right: 8px;
+}
+.info-detail i {
+  padding-right: 8px;
+}
+.info b {
+  font-weight: bolder;
+}
+.footer {
+  text-align: center;
+  color: #666;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.scrollup {
+  position: fixed;
+  background: #fff;
+  border: 1px solid #dededea8;
+  color: #d90845;
+  border-radius: 50%;
+  bottom: 1.5rem;
+  right: 1.25rem;
+  text-align: center;
+}
+.scrollup a {
+  display: block;
+  padding: 10px;
 }

@@ -433,9 +433,14 @@ body {
   text-decoration: none;
 }
 
+.swiper-slide {
+  width: 1000px;
+  display: flex;
+}
 .referrer img {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  padding-right: 40px;
 }
 .text p {
   font-size: 16px;
@@ -453,9 +458,7 @@ body {
   color: #888;
   font-size: 18px;
 }
-.swipe-container {
-  width: 960px;
-}
+
 .know-about-us {
   text-align: center;
   font-size: 18px;

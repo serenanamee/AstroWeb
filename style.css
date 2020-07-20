@@ -433,15 +433,24 @@ body {
   text-decoration: none;
 }
 
-.swiper-slide {
-  width: 1000px;
-  display: flex;
-}
 .referrer img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
+.swiper-content {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.text {
+  width: 700px;
+  padding-left: 50px;
+}
+
 .text p {
   font-size: 16px;
   color: #555;
